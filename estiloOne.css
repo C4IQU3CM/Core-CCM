@@ -1,8 +1,24 @@
 body{
-    background-color: beige;
-    font-size: 20;
-    font-family: cursive;
-    h6{
-        font-size: 20;
-    }
+    
+    height: 100%;
+    background-image: linear-gradient(to right , #011126 , #00060D , #023059,#085A8C,#08678C)
+}
+main{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    margin: auto;
+    background-color: white;
+    width: 500;
+    padding: 10
+
+}
+h1{
+    color:#08678C;
+    text-align: center;
+}
+h2{
+    color: orange;
+}
+p{
+    text-align: justify;
 }
