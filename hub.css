@@ -1,6 +1,7 @@
 body{
-    background-image: linear-gradient(to right , #011126 , #00060D , #023059,#085A8C,#08678C)
-
+   background-image: url(foto/fundo4.jpg);
+   background-size: contain , cover;
+   background-position: auto;
 }
 main{
     box-shadow: 5px 5px 10px black;
@@ -14,10 +15,29 @@ h1,h2{
     text-align: center;
 }
 h3{
-    background-color: #08678C;
+    background-color: #2d2dfc;
     background-size: cover;
     text-align: center;
     
 }
+p{
+    text-align: justify;
+}
+a{
+    background-color: darkgray;
+    color: red;
+    border-radius: 5px;
+    
+}
+ul{
+    background-color: darkgray;
+    border-radius: 5px;
+    border-color: #00060D;
+    border-width: 5px;
+    width: 50px;
+    height: 40px;
+    text-align: left;
+}
+
 
 
