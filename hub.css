@@ -1,11 +1,18 @@
 body{
+    background-image: linear-gradient(to left,#034159,#025951,#02735E,#038C3E,#0CF25D);
    background-image: url(foto/fundo4.jpg);
    background-size: contain , cover;
-   background-position: auto;
+   background-position: center;
+   background-repeat: repeat-y repeat-x;
+   background-attachment: fixed;
+   max-height: 700vh;
+   font-family: Arial, Helvetica, sans-serif;
+   
 }
 main{
     box-shadow: 5px 5px 10px black;
     border-radius: 20px;
+    border-color: #00060D;
     margin: auto;
     background-color: white;
     width: 700;
@@ -17,8 +24,12 @@ h1,h2{
 h3{
     background-color: #2d2dfc;
     background-size: cover;
+    background-position:center;
+    border: #00060D;
+    box-shadow: 5px,5px,5px #00060D;
     text-align: center;
-    
+    border-radius: 15px;
+    width: 700px;
 }
 p{
     text-align: justify;
@@ -27,6 +38,8 @@ a{
     background-color: darkgray;
     color: red;
     border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
     
 }
 ul{
@@ -38,6 +51,10 @@ ul{
     height: 40px;
     text-align: left;
 }
-
-
-
+a:hover{
+    transition: 1s;
+    color: #2d2dfc;
+}
+a:visited{
+    color: purple;
+}
