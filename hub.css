@@ -15,21 +15,22 @@ main{
     border-color: #00060D;
     margin: auto;
     background-color: white;
-    width: 700;
+    width: 1000;
     padding: 10
 }
-h1,h2{
+h1{
     text-align: center;
 }
 h3{
+    color: white;
     background-color: #2d2dfc;
     background-size: cover;
     background-position:center;
-    border: #00060D;
+    border: #000000;
     box-shadow: 5px,5px,5px #00060D;
     text-align: center;
     border-radius: 15px;
-    width: 700px;
+    width: 1000px;
 }
 p{
     text-align: justify;
@@ -39,7 +40,7 @@ a{
     color: red;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     
 }
 ul{
@@ -48,7 +49,7 @@ ul{
     border-color: #00060D;
     border-width: 5px;
     width: 50px;
-    height: 40px;
+    height: 60px;
     text-align: left;
 }
 a:hover{
